@@ -12,7 +12,7 @@
             # 7
 # should return 4.
 
-from tree.tree import TreeNode
+from .tree import TreeNode
 
 
 class DeepestLeft:

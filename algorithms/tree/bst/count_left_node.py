@@ -15,8 +15,8 @@ storing the values 6, 3, 7, and 10):
 
 """
 import unittest
-from bst import Node
-from bst import bst
+from ._bst import Node
+from ._bst import BST as bst
 
 def count_left_node(root):
     if root is None:

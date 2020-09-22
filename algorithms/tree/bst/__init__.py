@@ -1,8 +1,10 @@
+from ._bst import BST as bst
+
 from .kth_smallest import *
 from .serialize_deserialize import *
 from .unique_bst import *
 from .height import *
-from .bst import *
+from ._bst import *
 from .predecessor import *
 from .num_empty import *
 from .delete_node import *
